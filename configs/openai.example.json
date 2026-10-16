@@ -1,0 +1,11 @@
+{
+  "provider": "openai",
+  "model": "REPLACE_WITH_YOUR_MODEL_ID",
+  "defenses": ["baseline", "boundary"],
+  "repetitions": 3,
+  "max_output_tokens": 2048,
+  "timeout_seconds": 60,
+  "input_usd_per_million": null,
+  "output_usd_per_million": null,
+  "cached_input_usd_per_million": null
+}
