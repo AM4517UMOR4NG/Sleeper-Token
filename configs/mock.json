@@ -1,0 +1,11 @@
+{
+  "provider": "mock",
+  "model": "scripted-mock-v1",
+  "defenses": ["baseline", "boundary"],
+  "repetitions": 1,
+  "max_output_tokens": 1024,
+  "timeout_seconds": 60,
+  "input_usd_per_million": null,
+  "output_usd_per_million": null,
+  "cached_input_usd_per_million": null
+}
